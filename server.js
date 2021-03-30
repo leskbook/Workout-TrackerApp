@@ -14,14 +14,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-// mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://localhost/workout", {
-// 	useNewUrlParser: true,
-
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://root:myP@ssword@book1.xdurw.mongodb.net/workout?retryWrites=true&w=majority", {
-		useNewUrlParser: true,	
-
-
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://localhost/workout", {
+	useNewUrlParser: true,
 
 app.get("/exercise", (req, res) => {
 	res.sendFile(path.join(__dirname, "./public/exercise.html"));
