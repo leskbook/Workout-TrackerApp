@@ -14,9 +14,18 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-	useNewUrlParser: true,
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://root:myP@ssword@book1.xdurw.mongodb.net/workout?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
 });
+
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+// 	useNewUrlParser: true,
+
 
 
 app.get("/exercise", (req, res) => {
