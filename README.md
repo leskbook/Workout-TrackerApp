@@ -9,16 +9,15 @@
   * [ Screenshots-Demo ](#Screenshots)
   * [ Project Objective ](#Project-Objective)
   * [ User Story ](#User-Story)
-  * [ Technologies ](#Technologies)
-  * [ Installation ](#Installation)
+  * [ Technologies ](#Technologies)  
   * [ Usage ](#Usage)
-  * [ Credits and Reference ](#Credits-and-Reference)
-  * [ Tests ](#Tests)
+  * [ Credits and Reference ](#Credits-and-Reference)  
   * [ Author Contact ](#Author-Contact)
   * [ License ](#License)
   #
   ##  Project Links
   https://github.com/leskbook/Workout-TrackerApp<br>
+  https://hw17-workouttrackerapp.herokuapp.com
   
   ## Screenshots-Demo
   
@@ -30,18 +29,19 @@
   As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
   ## Technologies 
   ```
-  Node.js, Express, MongoDB, Mongoose
-  ```
+  Node.js
+  Express
+  MongoDB
+  Mongoose
   
-  ## Installation
-  Click on application link provided. 
+  ```
+    
   ## Usage 
-  Click on application link.
+  Click on application link. https://hw17-workouttrackerapp.herokuapp.com
   
   ## Credits and Reference
   none
-  ## Tests
-  Run application using link, add new exercise or finish exercise
+  
   ## Author Contact
   Contact the author with any questions!<br>
   Github link: [leskbook](https://github.com/leskbook)<br>
