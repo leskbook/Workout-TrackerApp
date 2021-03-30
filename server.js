@@ -3,7 +3,7 @@ const path = require("path");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 
-// const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 const db = require("./models");
 const app = express();
@@ -14,17 +14,12 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-
-const uri = "mongodb+srv://root:myP@ssword@book1.xdurw.mongodb.net/workout?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
-
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+// mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://localhost/workout", {
 // 	useNewUrlParser: true,
+
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://root:myP@ssword@book1.xdurw.mongodb.net/workout?retryWrites=true&w=majority", {
+		useNewUrlParser: true,	
 
 
 
