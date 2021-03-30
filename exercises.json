@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6d9b"
+  },
+  "type": "resistance",
+  "name": "Bicep Curl",
+  "duration": 20,
+  "weight": 100,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6d9c"
+  },
+  "type": "resistance",
+  "name": "Lateral Pull",
+  "duration": 20,
+  "weight": 300,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6d9d"
+  },
+  "type": "resistance",
+  "name": "Push Press",
+  "duration": 25,
+  "weight": 185,
+  "reps": 8,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6d9e"
+  },
+  "type": "cardio",
+  "name": "Running",
+  "duration": 25,
+  "distance": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6d9f"
+  },
+  "type": "resistance",
+  "name": "Bench Press",
+  "duration": 20,
+  "weight": 285,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6da0"
+  },
+  "type": "resistance",
+  "name": "Bench Press",
+  "duration": 20,
+  "weight": 225,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6da1"
+  },
+  "type": "resistance",
+  "name": "Quad Press",
+  "duration": 30,
+  "weight": 300,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6da2"
+  },
+  "type": "resistance",
+  "name": "Bench Press",
+  "duration": 20,
+  "weight": 150,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6da3"
+  },
+  "type": "resistance",
+  "name": "Military Press",
+  "duration": 20,
+  "weight": 200,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6063894414c1b8fc891a6da4"
+  },
+  "type": "resistance",
+  "name": "Bench",
+  "duration": 20,
+  "weight": 250,
+  "reps": 10,
+  "sets": 4,
+  "__v": 0
+}]
