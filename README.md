@@ -21,7 +21,7 @@
   
   ## Screenshots-Demo
   
-  ![](https://j.gifs.com/q7PzJ3.gif)
+  https://youtu.be/hoV3HQcJh44
   
   ## Project Objective
   The objective of this project is to create a workout tracker. This assignment will require the creation of a Mongo database with a Mongoose schema and handle routes with Express.
